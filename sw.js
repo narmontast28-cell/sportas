@@ -1,5 +1,5 @@
 // Paprastas service worker: puslapis ir ikonos veikia ir be interneto, kitkas – iš tinklo.
-const CACHE = "sportas-v1";
+const CACHE = "sportas-v2";
 const FILES = ["./", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
